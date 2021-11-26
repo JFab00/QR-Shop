@@ -24,5 +24,8 @@ The objective of this project was making a shop that, through the use of QR Code
   - Change every reference to my website (they are present in every .php file that has something to do with the QR code library thing)
   - You can delete all the images and qr images if you don't want them...
   - You could create a style.css file and move all the css in there
+    
+      
+  **Disclaimer:** When I uploaded the code it worked, if now when you test it doesn't... is not my fault👀
   
 

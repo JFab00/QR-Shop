@@ -1,0 +1,15 @@
+CREATE TABLE negozio (
+codice 	         CHAR    ( 4) primary key,
+descrizione	 VARCHAR (256),
+prezzo  	 DECIMAL (10,2),
+quantita         INTEGER,
+immagine         VARCHAR (256),
+qr               VARCHAR (256)
+);
+
+INSERT INTO negozio VALUES ('A000', 'Avocado', 0.50, 99, "avocado.jpg", "qr_avocado.png");
+INSERT INTO negozio VALUES ('A001', 'Banana', 0.80, 99, "banana_gialla.jpg", "qr_banana_gialla.png");
+INSERT INTO negozio VALUES ('A002', 'Bevanda Ace', 1.30, 99, "bevanda_ace.jpg", "qr_bevanda_ace.png");
+INSERT INTO negozio VALUES ('A003', 'Birra Perlenbacher Strong', 0.60, 99, "birra_strong.jpg", "qr_birra_strong.png");
+INSERT INTO negozio VALUES ('A004', 'Clementine', 1.20, 99, "clementine.jpg", "qr_clementine.png");
+/*... add you more ...*/
